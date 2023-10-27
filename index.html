@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedometer working using HTML, CSS and JavaScript</title>
+    <link rel="stylesheet" href="speed.css">
+</head>
+<body style="background-color: powderblue;">
+    <h1 style="font-size: 50px;color:blue;font-family: 'Courier New', Courier, monospace;text-align: center;">HMI ASSIGNMENT</h1>
+    <p style="color: black;font-family: 'Courier New', Courier, monospace;"><b>Name : Dhanush Aravindhan M <br>RollNo : 20BMC006 <br>Year : 4<sup>th</sup> year <br> Branch : Mechatronics</b></p>
+    <hr style="color: red;">
+    <div class="Speedometer-Container">
+        <div class="speedometer-text">
+            <div class="static">speed</div>
+            <div class="dynamic">
+                <span class="km">0</span>
+                <span class="unit">KMPH</span>
+            </div>
+        </div>
+        <div class="Center-point"></div>
+        <div class="hide-scale"></div>
+        <div class="speedometer-bottom-hide"></div>
+        <div class="arrow-container">
+            <div class="arrow-wrapper speed-0">
+                <div class="arrow"></div>
+            </div>
+        </div>
+        <div class="speedometer-scale speedometer-scale-1 active"></div>
+        <div class="speedometer-scale speedometer-scale-2"></div>
+        <div class="speedometer-scale speedometer-scale-3"></div>
+        <div class="speedometer-scale speedometer-scale-4"></div>
+        <div class="speedometer-scale speedometer-scale-5"></div>
+        <div class="speedometer-scale speedometer-scale-6"></div>
+        <div class="speedometer-scale speedometer-scale-7"></div>
+        <div class="speedometer-scale speedometer-scale-8"></div>
+        <div class="speedometer-scale speedometer-scale-9"></div>
+        <div class="speedometer-scale speedometer-scale-10"></div>
+        <div class="speedometer-scale speedometer-scale-11"></div>
+        <div class="speedometer-scale speedometer-scale-12"></div>
+        <div class="speedometer-scale speedometer-scale-13"></div>
+        <div class="speedometer-scale speedometer-scale-14"></div>
+        <div class="speedometer-scale speedometer-scale-15"></div>
+        <div class="speedometer-scale speedometer-scale-16"></div>
+        <div class="speedometer-scale speedometer-scale-17"></div>
+        <div class="speedometer-scale speedometer-scale-18"></div>
+        <div class="speedometer-scale speedometer-scale-19"></div>
+    </div>
+    <div class="accelerate-container">
+        <button class="increase" onclick="increaseSpeed()">Inscrease speed</button>
+        <button class="decrease" onclick="decreaseSpeed()">Decrease speed</button>
+    </div>
+    <script src="working.js"></script>
+
+    
+</body>
+</html>
